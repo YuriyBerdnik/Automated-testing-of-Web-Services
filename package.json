@@ -1,0 +1,21 @@
+{
+  "name": "API",
+  "version": "1.0.0",
+  "description": "Automated Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --reporter mochawesome --reporter-options reportDir=reports,reportFilename=testsApi_reporting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YuriyBerdnik/Automated-testing-of-Web-Services.git"
+  },
+  "author": "Yury Berdnik <yury_berdnik@epam.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.1",
+    "mochawesome": "^6.1.0"
+  }
+}
